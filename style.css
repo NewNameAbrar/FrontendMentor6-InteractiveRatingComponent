@@ -114,3 +114,21 @@ p {
   text-align: center;
   margin-top: 13px;
 }
+@media (max-width: 480px) {
+  #main {
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+  }
+  .eachRating {
+    height: 45px;
+    width: 45px;
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
